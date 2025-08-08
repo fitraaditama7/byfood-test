@@ -1,0 +1,50 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output of the go coverage tool
+*.out
+
+# Executable files
+/bin/
+/obj/
+/build/
+
+# Vendor directory (if you vendor dependencies)
+/vendor/
+
+# Go workspace file
+go.work
+
+# IDE/editor folders and files
+.vscode/
+.idea/
+*.iml
+
+# Dependency directories
+/pkg/mod/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Test binary
+_test
+
+# Environment files
+.env
+
+# JetBrains IDE specific
+*.iws
+*.ipr
+*.iml
+
+# Coverage profiles
+coverage.out
